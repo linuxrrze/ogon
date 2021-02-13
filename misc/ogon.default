@@ -1,0 +1,4 @@
+OGON_RDPSERVER_OPTS="--log=syslog"
+OGON_SESSIONMANAGER_OPTS="--log=syslog"
+OGON_RDPCLIP_OPTS="--log=syslog"
+OGON_PULSEAUDIO_OPTS="--log-target=syslog"
