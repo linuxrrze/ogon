@@ -9,6 +9,7 @@ install(PROGRAMS "${CMAKE_CURRENT_BINARY_DIR}/ogon-start-vc.sh" DESTINATION ${CM
 
 install(PROGRAMS "ogonXsession" DESTINATION ${OGON_CFG_PATH})
 install(PROGRAMS "ogon_cleanup.sh" DESTINATION ${OGON_CFG_PATH})
+install(FILES "ogon" DESTINATION /etc/default)
 
 if(WITH_OPENH264)
 	configure_file(${CMAKE_CURRENT_SOURCE_DIR}/ogon-get-openh264-codec.in ${CMAKE_CURRENT_BINARY_DIR}/ogon-get-openh264-codec)
